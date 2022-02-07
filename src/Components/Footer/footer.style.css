@@ -1,0 +1,25 @@
+.footer-nav {
+  padding: 3rem 4.5rem;
+  justify-content: space-between;
+}
+
+.footer-nav ul > li {
+  padding: 1rem 1.5rem;
+}
+
+.footer-bg {
+  background: rgba(90, 131, 148, 0.363);
+}
+
+.footer-text {
+  padding: 0 3rem;
+  line-height: 27px;
+  margin: 3px 18px;
+  text-align: start;
+  color: #afffff;
+}
+
+.b_font {
+  font-weight: bold;
+  font-size: 18px;
+}

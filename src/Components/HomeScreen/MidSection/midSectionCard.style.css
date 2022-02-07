@@ -1,0 +1,52 @@
+.para-card {
+  position: absolute;
+  margin: 6rem 0rem;
+  padding: 3rem;
+  max-width: 693px;
+  background-image: linear-gradient(
+    rgba(76, 128, 158, 1),
+    rgba(67, 101, 128, 0.644)
+  );
+  box-shadow: 1px 2px 5px;
+  border-radius: 6px;
+  z-index: 9;
+}
+
+.card-img {
+  position: relative;
+  max-height: 51vh;
+  margin-left: 27rem;
+  box-shadow: 1px 2px 5px;
+  border-radius: 6px;
+}
+
+.card-reverse {
+  flex-direction: row-reverse;
+}
+
+.card-img-reverse {
+  margin-left: 0rem;
+  margin-right: 27rem;
+}
+
+.card-divider {
+  margin: 9rem 0;
+}
+
+.s-card {
+  margin: 6rem 0rem;
+  padding: 3rem;
+  max-width: 693px;
+  z-index: 9;
+}
+
+.s_card-img {
+  position: relative;
+  max-height: 63vh;
+  box-shadow: 1px 2px 5px;
+  border-radius: 6px;
+}
+
+.text-shadow {
+  text-shadow: 0 1px 2px rgb(0 0 0 / 81%);
+}

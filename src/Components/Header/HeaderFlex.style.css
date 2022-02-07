@@ -1,0 +1,36 @@
+header {
+  padding: 1rem 0;
+  margin: 1rem 0;
+}
+
+.header-container {
+  max-width: 93%;
+  margin: auto;
+  color: #0e112f;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+}
+
+.header-flex-items {
+  margin-left: 3rem;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.header-flex-items:hover {
+  color: #2e5565;
+}
+
+.header-flex-items__empty {
+  flex: 1;
+}
+
+.ferry-logo {
+  font-family: Inter;
+}
+
+.sm_screen {
+  display: flex;
+}
