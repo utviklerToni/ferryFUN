@@ -30,11 +30,14 @@ const MidSectionCard = () => {
 							</button>
 						</div>
 					</div>
-					<img
-						className='card-img'
-						src={windowViewImage}
-						alt={`windowViewImage`}
-					/>
+
+					<div className='my-3'>
+						<img
+							className='card-img'
+							src={windowViewImage}
+							alt={`windowViewImage`}
+						/>
+					</div>
 				</div>
 				{/* spaces between each card, */}
 				<div className='card-divider'></div>
@@ -47,11 +50,10 @@ const MidSectionCard = () => {
 							<br />
 							<div className='short-para'>
 								<p style={{ color: 'white' }}>
-									Explore the world of amphibians of unspoiled water, illegal
-									drug deals gone wrong sort of explosion in the middle of
-									nowhere and much more. Seek out action, confront your captain
-									or maybe rob his gun and scare him. Go looting on the other
-									cabins or piss into the ocean from deck. Choice is yours.
+									Explore the world of amphibians of unspoiled water Seek out
+									action, confront your captain or maybe rob his gun and scare
+									him. Go looting on the other cabins or piss into the ocean from
+									deck. Choice is yours.
 								</p>
 							</div>
 							<br />
@@ -60,7 +62,7 @@ const MidSectionCard = () => {
 							</button>
 						</div>
 					</div>
-					<div>
+					<div className='my-3'>
 						<img
 							className='card-img card-img-reverse'
 							src={cruiseStop}
@@ -71,9 +73,10 @@ const MidSectionCard = () => {
 
 				{/* spaces between each card, */}
 				<div className='card-divider'></div>
+				<hr className='hr-line' />
 
 				{/* 3rd card, couple */}
-				<div className='d-flex'>
+				<div className='d-flex flex-dir-c-rev'>
 					<div className='s-card'>
 						<div className='short-para header'>
 							<h1 className='text-shadow' style={{ textAlign: 'center' }}>
@@ -106,6 +109,7 @@ const MidSectionCard = () => {
 					</div>
 				</div>
 			</div>
+			<hr className='hr-line' />
 		</Fragment>
 	);
 };

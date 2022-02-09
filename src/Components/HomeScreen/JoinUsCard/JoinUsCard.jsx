@@ -5,7 +5,7 @@ import ferryIllustration from '../../../assets/images/transportation _ ship, cru
 
 const JoinUsCard = () => {
 	return (
-		<div className='container d-flex'>
+		<div className='container d-flex flex-dir-c-rev'>
 			<div className='join-us-container d-flex'>
 				<h1 className='join-us-header'>
 					Join us in our adventure among the beautiful Fjord

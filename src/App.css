@@ -53,6 +53,9 @@ a:visited {
 .px-6 {
 	padding-left: 3rem;
 }
+.my-3 {
+	margin-top: 3rem;
+}
 
 li > a {
 	padding: 9px;
@@ -74,6 +77,15 @@ li > a {
 	font-size: 18px;
 }
 
+.hr-line {
+	width: 100%;
+	max-width: 45vw;
+	height: 0.21rem;
+	border-radius: 9px;
+	background-color: rgba(9, 9, 32, 0.795);
+	margin: 1.8rem auto 1.8rem auto;
+}
+
 @media (max-width: 960px) {
 	.container {
 		width: 100%;
@@ -82,5 +94,9 @@ li > a {
 
 	.d-flex {
 		flex-direction: column;
+	}
+
+	.flex-dir-c-rev {
+		flex-direction: column-reverse;
 	}
 }

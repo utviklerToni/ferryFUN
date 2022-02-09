@@ -42,7 +42,7 @@
 
 .s_card-img {
 	position: relative;
-	max-height: 63vh;
+	/* max-height: 63vh; */
 	box-shadow: 1px 2px 5px;
 	border-radius: 6px;
 }
@@ -58,8 +58,8 @@
 	}
 
 	.card-img {
-		max-height: 100%;
-		max-width: 100%;
+		max-width: 93vw;
+		width: 100%;
 		margin: 15rem auto 1rem auto;
 	}
 
@@ -73,7 +73,7 @@
 		max-width: 100%;
 	}
 	.card-divider {
-		margin: 2.7rem 0;
+		display: none;
 	}
 
 	.short-para {
@@ -87,5 +87,6 @@
 
 	.short-para p {
 		font-size: 18px;
+		text-align: center;
 	}
 }
