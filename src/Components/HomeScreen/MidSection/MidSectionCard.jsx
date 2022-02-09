@@ -1,7 +1,7 @@
 import React, { Fragment } from 'react';
 
 import './midSectionCard.style.css';
-import windowViewImage from '../../../assets/images/pexels-dick-hoskins-6969526.jpg';
+import windowViewImage from '../../../assets/images/pexels-dick-hoskins-6969526__1440p_.jpg';
 import cruiseStop from '../../../assets/images/pexels-christian-pfeifer-5334316.jpg';
 import coupleSitting from '../../../assets/images/pexels-andre-furtado-1417255.jpg';
 
@@ -30,13 +30,11 @@ const MidSectionCard = () => {
 							</button>
 						</div>
 					</div>
-					<div>
-						<img
-							className='card-img'
-							src={windowViewImage}
-							alt={`windowViewImage`}
-						/>
-					</div>
+					<img
+						className='card-img'
+						src={windowViewImage}
+						alt={`windowViewImage`}
+					/>
 				</div>
 				{/* spaces between each card, */}
 				<div className='card-divider'></div>

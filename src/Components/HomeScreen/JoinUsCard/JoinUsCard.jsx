@@ -12,10 +12,10 @@ const JoinUsCard = () => {
 				</h1>
 				<br />
 				<button
-					className='btn-blue d-flex'
+					className='btn-blue d-flex sm-screen-btn'
 					style={{
 						background: '#275564',
-						padding: '1.2rem 3.6rem',
+						padding: '1.2rem 1.8rem',
 						alignItems: 'center',
 					}}>
 					<span className='btn-text'>EXPLORE WHAT WE OFFER</span>

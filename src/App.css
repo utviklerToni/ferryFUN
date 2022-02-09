@@ -27,21 +27,18 @@ body {
 	font-family: Roboto;
 }
 
-/* .App {
-  height: 100vh;
-} */
-
 a:visited {
 	color: rgb(9, 9, 32);
 }
 
 .container {
-	width: 81vw;
+	max-width: 81vw;
 	margin: auto;
 }
 
 .d-flex {
 	display: flex;
+	flex-wrap: wrap;
 }
 
 .flex-space-around {
@@ -79,6 +76,11 @@ li > a {
 
 @media (max-width: 960px) {
 	.container {
-		width: 93vw;
+		width: 100%;
+		max-width: 93vw;
+	}
+
+	.d-flex {
+		flex-direction: column;
 	}
 }
