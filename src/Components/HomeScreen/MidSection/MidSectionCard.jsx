@@ -100,9 +100,9 @@ const MidSectionCard = () => {
 							</button>
 						</div>
 					</div>
-					<div>
+					<div className=''>
 						<img
-							className='s_card-img'
+							className='s_card-img fit-img'
 							src={coupleSitting}
 							alt={`coupleSitting`}
 						/>

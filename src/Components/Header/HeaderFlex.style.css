@@ -31,13 +31,17 @@ header {
 	font-family: Inter;
 }
 
-.sm-screen {
-	display: none;
-}
+
 
 .button-color-reset {
 	border: transparent;
 	background-color: transparent;
+}
+
+@media (min-width: 960px) {
+  .d-none {
+    display: none;
+  }
 }
 
 @media (max-width: 960px) {
@@ -49,5 +53,8 @@ header {
 
 	.ferry-logo {
 		margin-left: 0.36rem;
+	}
+	.sm-screen {
+		display: none;
 	}
 }
