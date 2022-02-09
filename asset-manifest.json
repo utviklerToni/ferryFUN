@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/ferryFUN/static/css/main.27cf0803.css",
-    "main.js": "/ferryFUN/static/js/main.17ca4089.js",
+    "main.css": "/ferryFUN/static/css/main.05ed79f8.css",
+    "main.js": "/ferryFUN/static/js/main.8e675892.js",
     "static/media/pexels-andre-furtado-1417255.jpg": "/ferryFUN/static/media/pexels-andre-furtado-1417255.dedcef9e7720cf766e48.jpg",
     "static/media/pexels-dick-hoskins-6969526__1440p_.jpg": "/ferryFUN/static/media/pexels-dick-hoskins-6969526__1440p_.1406875429cc705518f8.jpg",
     "static/media/pexels-christian-pfeifer-5334316.jpg": "/ferryFUN/static/media/pexels-christian-pfeifer-5334316.8932cbe0dafc6945ec31.jpg",
     "static/media/pexels-gabriel-peter-698379.jpg": "/ferryFUN/static/media/pexels-gabriel-peter-698379.b79176d1f395ae8d3a73.jpg",
     "static/media/transportation _ ship, cruise.png": "/ferryFUN/static/media/transportation _ ship, cruise.2b52806744f0366f5672.png",
     "index.html": "/ferryFUN/index.html",
-    "main.27cf0803.css.map": "/ferryFUN/static/css/main.27cf0803.css.map",
-    "main.17ca4089.js.map": "/ferryFUN/static/js/main.17ca4089.js.map"
+    "main.05ed79f8.css.map": "/ferryFUN/static/css/main.05ed79f8.css.map",
+    "main.8e675892.js.map": "/ferryFUN/static/js/main.8e675892.js.map"
   },
   "entrypoints": [
-    "static/css/main.27cf0803.css",
-    "static/js/main.17ca4089.js"
+    "static/css/main.05ed79f8.css",
+    "static/js/main.8e675892.js"
   ]
 }
